@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>/.ZoZo./ Zombie Zone Portal</title>
+
+<link rel="stylesheet" href="./data/style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="./data/style-motd.css" type="text/css" media="screen">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+
+<script>
+$(function() {
+	$('ul.tabs').delegate('li:not(.current)', 'click', function() {
+		$(this).addClass('current').siblings().removeClass('current')
+			.parents('div.section').find('div.box').hide().eq($(this).index()).show();
+	})
+})
+</script>
+
+<script src="./data/ajax-tabs.js"></script>
+<style>.vip-box { background-image: url(./data/motd-vip-l4d-02.jpg), url(./data/motd-vip-l4d-01.jpg); }</style>
+
+</head>
+
+<body style="background: snow url(./data/bg-pattern.jpg) repeat;">
+
+	<div class="server-info-block">
+
+		<div class="advert-load"></div>
+		<script> $(function() { $('.advert-load').load('./data/advert.php #advert'); }) </script>
+	
+		<div class="section">
+
+			<ul class="tabs">
+				<li class="current"><img src="./data/left4dead2.gif"> ExtraVersus #1</li>
+				<li class="l4d2-tab"><img src="./data/left4dead2.gif"> Серверы L4D2</li>
+				<li class="tf2-tab"><img src="./data/tf2.png"> Серверы TF2</li>
+				<li class="kf-tab"><img src="./data/killingfloor.png"> Серверы KF</li>
+				<li class="chat-tab"><img src="./data/commfort.gif"> CommFort Чат</li>
+			</ul>
+			
+			<div class="box visible" style="display: block;">
+			
+				<div class="monitoring">
+					<iframe src="http://cache.www.gametracker.com/components/html0/?host=78.139.77.165:27017&bgColor=FFFAFA&fontColor=334734&titleBgColor=FFFAFA&titleColor=334734&borderColor=E6EADE&linkColor=091858&borderLinkColor=334734&showMap=1&currentPlayersHeight=200&showCurrPlayers=1&showTopPlayers=0&showBlogs=0&width=260" frameborder="0" scrolling="no" width="260" height="512"></iframe>
+				</div>
+
+				<div class="discription">
+					<h2>/.ZoZo./ ExtraVersus #1</h2>
+					<h3>connect zo-zo.org:27017</h3>
+					<ul>
+						<li>Режим Versus (Сражение)</li>
+						<li>Максимальное число игроков: 8 + 2 зрителя</li>
+						<li>Возможность летать призраком за Зараженных.</li>
+						<li>Выжившие могут ползти, если выведены из строя.</li>
+						<li>Добавлено оружие из Counter-Strike и полицейский щит.</li>
+						<li>Статистика <a href="http://zo-zo.org/hlstatsx/hlstats.php?game=l4d2">HLstatsX</a> по каждому игроку сервера.</li>
+					</ul>
+				</div>
+				<br class="clear">
+
+			</div> 
+
+			<!-- L4D2 Servers -->
+			<div class="box l4d2-box" style="display: none;"></div>
+
+			<!-- TF2 Servers -->
+			<div class="box tf2-box" style="display: none;"></div>
+			
+			<!-- KF Servers -->
+			<div class="box kf-box" style="display: none;"></div>
+			 
+			<!-- CommFort Chat -->
+			<div class="box chat-box" style="display: none;"></div>
+   
+		</div><!-- .section -->
+		<br class="clear">
+
+	</div><!-- .server-info-block -->
+
+<!-- http://pleer.com/tracks/8507484jvKZ -->
+<div style="opacity: 0; position: absolute; top:0; left:0; z-index: -1;">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="165" height="38" id="niftyPlayer1" align="">
+<param name=movie value="./data/niftyplayer.swf?file=http://pleer.com/download/8507484.mp3&as=1">
+<param name=quality value=high>
+<param name=bgcolor value=#FFFFFF>
+<embed src="./data/niftyplayer.swf?file=http://pleer.com/download/8507484.mp3&as=1" quality=high bgcolor=#FFFFFF width="165" height="38" name="niftyPlayer1" align="" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer">
+</embed>
+</object>
+</div>
+
+</body></html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>/.ZoZo./ Zombie Zone Portal</title>
+
+<link rel="stylesheet" href="./data/style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="./data/style-motd.css" type="text/css" media="screen">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+
+<script>
+$(function() {
+	$('ul.tabs').delegate('li:not(.current)', 'click', function() {
+		$(this).addClass('current').siblings().removeClass('current')
+			.parents('div.section').find('div.box').hide().eq($(this).index()).show();
+	})
+})
+</script>
+
+<script src="./data/ajax-tabs.js"></script>
+<style>.vip-box { background-image: url(./data/motd-vip-l4d-02.jpg), url(./data/motd-vip-l4d-01.jpg); }</style>
+
+</head>
+
+<body style="background: snow url(./data/bg-pattern.jpg) repeat;">
+
+	<div class="server-info-block">
+
+		<div class="advert-load"></div>
+		<script> $(function() { $('.advert-load').load('./data/advert.php #advert'); }) </script>
+	
+		<div class="section">
+
+			<ul class="tabs">
+				<li class="current"><img src="./data/rating.png"> VIP Бонусы</li>
+				<li class=""><img src="./data/left4dead2.gif"> Blood Factory</li>
+				<li class="l4d2-tab"><img src="./data/left4dead2.gif"> Серверы L4D2</li>
+				<li class="tf2-tab"><img src="./data/tf2.png"> Серверы TF2</li>
+				<li class="kf-tab"><img src="./data/killingfloor.png"> Серверы KF</li>
+				<li class="chat-tab"><img src="./data/commfort.gif"> CommFort Чат</li>
+			</ul>
+
+			<div class="box visible vip-box" style="display: block;">
+				<p class="vip-title">VIP БОНУСЫ</p><br>
+				<p class="vip-discription">Система VIP-бонусов позволяет получить некоторые преимущества и привилегии во время игры на серверах /.ZoZo./ Zombie Zone. Благодаря Вашим пожертвованиям серверы будут развиваться и улучшаться, а взамен Вы получите VIP-бонусы.</p><br>
+				
+				<ul class="vip-check-list">
+					<li>Огнестрельное и рукопашное оружие.</li>
+					<li>Таблетки, Адреналин, Лазерный прицел, Бомба.</li>
+					<li>Добавочное здоровье за Выживших и Зараженных.</li>
+					<li>Моделька персонажа и цвет модельки.</li>
+					<li>Тег [VIP] перед ником в чате игры.</li>
+					<li>Приветствие в момент подключения к серверу.</li>
+					<li>Резервный слот для подключения на полный сервер.</li>
+					<li>И многое другое...</li>
+				</ul>
+		
+				<div class="vip-price"><img src="./data/motd-vip-price.png"></div>
+				<center><h2 class="vip-site"><a href="http://zo-zo.org/vip/">ПОДРОБНОСТИ НА САЙТЕ!</a></h2></center>
+			</div>
+			
+			<div class="box" style="display: none;">
+			
+				<div class="monitoring">
+					<iframe src="http://cache.www.gametracker.com/components/html0/?host=78.139.77.165:27020&bgColor=FFFAFA&fontColor=334734&titleBgColor=FFFAFA&titleColor=334734&borderColor=E6EADE&linkColor=091858&borderLinkColor=334734&showMap=1&currentPlayersHeight=200&showCurrPlayers=1&showTopPlayers=0&showBlogs=0&width=260" frameborder="0" scrolling="no" width="260" height="512"></iframe>
+				</div>
+
+				<div class="discription">
+					<h2>/.ZoZo./ Blood Factory</h2>
+					<h3>connect zo-zo.org:27020</h3>
+					<ul>
+						<li>Режим: Versus / Сражение.</li>
+						<li>Максимальное число игроков: 20.</li>
+						<li>Начать играть и список игроков: !team</li>
+						<li>Награды за убийство Танков и Ведьм.</li>
+						<li>Обмен вещами (медикаменты, гранаты и т.п.)</li>
+						<li>Усложненные пути прохождения некоторых карт.</li>
+						<li>Игроки сами выбирают, какая кампания будет следующей.</li>
+						<li>Выжившие могут ползти, если упали, вид от третьего лица.</li>
+						<li>Держите гнома в руках, чтобы восстанавливать себе здоровье.</li>
+						<li>Увеличена скорость поднятия, лечения, бега под адреналином.</li>
+						<li>Жокей может прыгать вместе с жертвой и передвигается быстрее.</li>
+						<li>Громила толкает объекты и может поворачивать во время разбега.</li>
+						<li>Охотник наносит больше урона прыжком и не дает ползти Выжившему.</li>
+						<li>До трех Танков одновременно, горящий Танк передвигается быстрее.</li>
+						<li>После убийства Зараженных падают вещи (медикаменты, оружие и т.п.)</li>
+						<li>Самостоятельное поднятие и освобождение от Зараженных медикаментами.</li>
+						<li>Курильщик может тащить жертву и двигаться, облако дыма наносит урон.</li>
+						<li>Плевальщица неуязвима несколько секунд после плевка и может плевать дальше.</li>
+						<li>Лазерный прицел появляется автоматически на том оружии, которое подбираете.</li>
+						<li>Толстяк может двигаться во время рвоты и обладает рядом других способностей.</li>
+						<li>Выбор класса Зараженных, возможность отпускать жертву, полет в режиме возрождения.</li>
+						<li>Подробный <a href="http://zo-zo.org/forum/threads/31/" target="_blank">список особенностей</a> сервера и обсуждение.</li>
+						<li>Статистика <a href="http://zo-zo.org/hlstatsx/hlstats.php?game=l4d2" target="_blank">HLstatsX</a> по каждому игроку сервера.</li>
+						<li>Уникальные <a href="http://zo-zo.org/vip/">VIP-бонусы</a> для игроков.</li>
+					</ul>
+				</div>
+				<br class="clear">
+
+			</div> 
+
+			<!-- L4D2 Servers -->
+			<div class="box l4d2-box" style="display: none;"></div>
+
+			<!-- TF2 Servers -->
+			<div class="box tf2-box" style="display: none;"></div>
+			
+			<!-- KF Servers -->
+			<div class="box kf-box" style="display: none;"></div>
+			 
+			<!-- CommFort Chat -->
+			<div class="box chat-box" style="display: none;"></div>
+   
+		</div><!-- .section -->
+		<br class="clear">
+
+	</div><!-- .server-info-block -->
+
+<!-- http://pleer.com/tracks/8507484jvKZ -->
+<div style="opacity: 0; position: absolute; top:0; left:0; z-index: -1;">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="165" height="38" id="niftyPlayer1" align="">
+<param name=movie value="./data/niftyplayer.swf?file=http://pleer.com/download/8507484.mp3&as=1">
+<param name=quality value=high>
+<param name=bgcolor value=#FFFFFF>
+<embed src="./data/niftyplayer.swf?file=http://pleer.com/download/8507484.mp3&as=1" quality=high bgcolor=#FFFFFF width="165" height="38" name="niftyPlayer1" align="" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer">
+</embed>
+</object>
+</div>
+
+</body></html>

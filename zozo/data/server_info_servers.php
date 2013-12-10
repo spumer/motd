@@ -54,18 +54,10 @@
 	<iframe src="http://cache.www.gametracker.com/components/html0/?host=46.254.240.20:27016&bgColor=FFFAFA&fontColor=334734&titleBgColor=FFFAFA&titleColor=334734&borderColor=E6EADE&linkColor=091858&borderLinkColor=334734&showMap=1&currentPlayersHeight=200&showCurrPlayers=1&showTopPlayers=0&showBlogs=0&width=260" frameborder="0" scrolling="no" width="260" height="510"></iframe>
 </div>
 
-<div id="nucleardawn-content">
-	<iframe src="http://zo-zo.org/hlstatsx/status.php?server_id=9&game=nd" scrolling="no" width="260" height="510" marginwidth="0" marginheight="0" frameborder="0" hspace="0" vspace="0"></iframe>
-</div>
-
 <div id="kf-1-content">
 	<iframe src="http://cache.www.gametracker.com/components/html0/?host=78.139.77.165:7707&bgColor=FFFAFA&fontColor=334734&titleBgColor=FFFAFA&titleColor=334734&borderColor=E6EADE&linkColor=091858&borderLinkColor=334734&showMap=1&currentPlayersHeight=200&showCurrPlayers=1&showTopPlayers=0&showBlogs=0&width=260" frameborder="0" scrolling="no" width="260" height="510"></iframe>
 </div>
 
 <div id="kf-2-content">
 	<iframe src="http://cache.www.gametracker.com/components/html0/?host=78.139.77.165:7807&bgColor=FFFAFA&fontColor=334734&titleBgColor=FFFAFA&titleColor=334734&borderColor=E6EADE&linkColor=091858&borderLinkColor=334734&showMap=1&currentPlayersHeight=200&showCurrPlayers=1&showTopPlayers=0&showBlogs=0&width=260" frameborder="0" scrolling="no" width="260" height="510"></iframe>
-</div>
-
-<div id="dayz-content">
-	<iframe src="http://cache.www.gametracker.com/components/html0/?host=37.59.28.24:2352&bgColor=FFFAFA&fontColor=334734&titleBgColor=FFFAFA&titleColor=334734&borderColor=E6EADE&linkColor=091858&borderLinkColor=334734&showMap=1&currentPlayersHeight=200&showCurrPlayers=1&showTopPlayers=0&showBlogs=0&width=260" frameborder="0" scrolling="no" width="260" height="510"></iframe>
 </div>
