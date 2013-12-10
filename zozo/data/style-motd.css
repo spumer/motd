@@ -60,13 +60,13 @@
 }
 
 .vip-check-list li {
-	background-image: url(./data/list-style-check.png);
+	background-image: url(./list-style-check.png);
 	background-repeat: no-repeat;
 	padding-left: 20px !important;
 }
 
 .vip-check-list li:hover {
-	background-image: url(./data/list-style-check.png) !important;
+	background-image: url(./list-style-check.png) !important;
 	background-repeat: no-repeat !important;
 }
 
